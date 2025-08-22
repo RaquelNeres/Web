@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 60px;
+    background: #041932;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 0;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #FF2978;
+}
+
+#botao {
+    background: #0d92d4;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 100px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    border: 1px solid black;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180F4A;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    border: 1px solid deeppink;
+    text-align: center;
+}

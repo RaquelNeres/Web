@@ -1,0 +1,38 @@
+body {
+    margin-top: 200px;
+    background: rgb(176, 176, 176);
+}
+
+h1 {
+    margin-left: 400px;
+    max-width: 50%;
+    border-radius: 30px;
+    text-align: center;
+    background: yellowgreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.botao {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    background: rgb(161, 218, 246);
+}
+
+.botao a {
+    font-size: 30px;
+    color: blue;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao a:hover {
+    background: rgb(224, 222, 222);
+}
+
+.dois:hover {
+    display: none;
+}

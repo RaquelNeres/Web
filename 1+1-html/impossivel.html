@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        /* Estilize o texto como desejado */
+        #meuTexto {
+
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- O elemento de texto que será modificado -->
+    <p id="meuTexto" onmouseover="mudarTexto()" onmouseout="resetarTexto()">DICA!</p>
+
+    <script>
+        // Função para mudar o texto
+        function mudarTexto() {
+            document.getElementById("meuTexto").innerHTML = "sério isso ?";
+        }
+
+        // Função para resetar o texto
+        function resetarTexto() {
+            document.getElementById("meuTexto").innerHTML = "DICA!";
+        }
+    </script>
+
+    <h1>Tente novamente</h1><br><br>
+
+    <div class="botao">
+        <a class="quatro" href="serio.html">&nbsp;4&nbsp;</a>&nbsp;&nbsp;
+        <a class="onze" href="maternal.html">&nbsp;11&nbsp;</a>&nbsp;&nbsp;
+        <a class="dois" href="resposta.html">&nbsp;2&nbsp;</a>&nbsp;&nbsp;
+        <a class="mais de 8000" href="ajuda.html">mais de 8000</a>
+    </div>
+
+
+</body>
+
+</html>

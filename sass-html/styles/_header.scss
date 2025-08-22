@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    background: $primary;
+    color: white;
+
+    button {
+        background: $segudary;
+
+        &:hover {
+            /* oque acontece quando passa o mousse por cima */
+            background: yellow;
+        }
+
+        &:after {
+            content: 'testeeee';
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    h1 {
+        color: purple;
+    }
+}

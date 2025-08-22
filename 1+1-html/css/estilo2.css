@@ -1,0 +1,17 @@
+body {
+    margin-top: 300px;
+    background: rgb(176, 176, 176);
+}
+
+h1 {
+    margin-left: 400px;
+    max-width: 50%;
+    border-radius: 30px;
+    text-align: center;
+    background: yellowgreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    margin-left: 630px;
+}

@@ -1,0 +1,8 @@
+$primery: rgb(38, 255, 0);
+$segundary: red;
+
+@import "./header";
+
+.contato {
+    background: $primary;
+}
