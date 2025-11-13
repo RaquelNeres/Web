@@ -4,7 +4,9 @@
     }
 
     .menu {
-        display: none;
+        flex: 100%;
+        text-align: center;
+        margin-left: 10%;
     }
 
     .logo {
