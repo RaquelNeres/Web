@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 150px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------- Imagem --------------------------- */
+.img-headline {
+    margin-right: 5%;
+    flex: 40%;
+    text-align: center;
+}
+
+.img-headline img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    transition: all 0.3s ease;
+}
+
+.img-headline img:hover {
+    transform: scale(1.05);
+}
+
+/* ------------------------------------------------------------------ */
+
+
+
+
+
+
+.contact-btn {
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180F4A;
+}
