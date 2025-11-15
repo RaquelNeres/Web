@@ -79,3 +79,44 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(255, 193, 7, 0.4);
 }
+
+/* 1. O contêiner pai do link deve ser relativo */
+.dropdown {
+    position: relative; /* Define este div como o contexto de posicionamento para seus filhos absolutos [1] */
+    display: inline-block; /* Garante que ele ocupe apenas o espaço necessário dentro do Flexbox (.menu) */
+}
+
+/* 2. Esconda o conteúdo do menu (estado inicial) */
+.dropdown-content {
+    display: none; /* Garante que o menu não seja exibido e não ocupe espaço [3] */
+    position: absolute; /* Permite que ele flutue fora do fluxo normal, posicionado relativo ao .dropdown [2] */
+    top: 100%; /* Posiciona o topo do dropdown 100% abaixo do fundo do link "Conteudo" */
+    left: 0;
+    
+    /* Estilização Adicional */
+    min-width: 160px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; /* Garante que o menu apareça acima de outros elementos [4, 5] */
+    
+}
+
+/* 3. Estilize os links dentro do menu oculto */
+.dropdown-content a {
+    color: #180F4A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* Garante que cada opção ocupe uma linha inteira */
+    text-align: left;
+}
+
+/* Estilo de interação (opcional, para feedback visual) */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-top: none; /* Remove a borda azul que a classe .menu a:hover aplicava */
+}
+
+/* Classe que será adicionada/removida pelo JavaScript */
+.show {
+    display: block; /* Muda de 'none' para 'block' ou 'flex', tornando o menu visível */
+}

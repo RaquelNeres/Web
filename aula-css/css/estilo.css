@@ -40,11 +40,13 @@ body {
 .card {
     flex-grow: 1%;
     background: #ccc;
-    height: 400px;
+    height: 200px;
     margin: 1%;
 }
 
+/* Se adaptar aos tamanhos de telas */
 @media screen and (max-width:700px) {
+    /* Se o tamanho da tela for menor que 700 ele faz essa mudança */
     .navbar {
         flex-direction: column;
     }

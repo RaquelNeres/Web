@@ -13,10 +13,22 @@
             <h1>Raquel Neres</h1>
         </div>
         <div class="menu">
-            <a href="#">Quem sou</a>
-            <a href="#">Experiencia</a>
-            <a id="aulas" href="#">Conteudo</a>
-            <a id="botao" href="#">Home</a>
+            <a href="how.html">Quem sou</a>
+            <a href="xp.html">Experiencia</a>
+            
+            <!-- NOVO CONTAINER PARA O DROPDOWN -->
+            <div class="dropdown">
+                <a id="aulas" href="#">Conteudo</a>
+                
+                <!-- O MENU OCULTO EM SI -->
+                <div class="dropdown-content">
+                    <a href="#">Opção 1</a>
+                    <a href="#">Opção 2</a>
+                    <a href="#">Opção 3</a>
+                </div>
+            </div>
+
+            <a id="botao" href="index.html">Home</a>
         </div>
     </nav>
 
@@ -32,6 +44,76 @@
         </div>
 
     </header>
+
+    <section>
+        <h2>O que podemos fazer pelo seu negócio?</h2>
+        <div class="servicos">
+            <div class="card"><img src="img/pc.png">
+                <div class="card-text">
+                    <h3>Desenvolvimento de Sites</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi tenetur beatae expedita ex
+                        voluptatum dolor, consequuntur quo voluptatem eum harum quibusdam inventore quaerat iste omnis?
+                        Incidunt facere dolores voluptate!</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteudo qualquer</h3>
+                    <p>Lorem dolor sit amet consectetur adipisicing elit. A sequi tenetur beatae expedita ex
+                        voluptatum dolor, consequuntur quo voluptatem eum harum quibusdam inventore quaerat iste omnis?
+                        Incidunt facere dolores voluptate!</p>
+                </div>
+            </div>
+
+            <div class="card"><img src="img/apps.png">
+                <div class="card-text">
+                    <h3>Desenvolvimento de Apps</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi tenetur beatae expedita ex
+                        voluptatum dolor, consequuntur quo voluptatem eum harum quibusdam inventore quaerat iste omnis?
+                        Incidunt facere dolores voluptate!</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteudo qualquer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi tenetur beatae expedita ex
+                        voluptatum dolor, consequuntur quo voluptatem eum harum quibusdam inventore quaerat iste omnis?
+                        Incidunt facere dolores voluptate!</p>
+                </div>
+            </div>
+
+            <div class="card"><img src="img/marketing.png">
+                <div class="card-text">
+                    <h3>Marketing Digital</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi tenetur beatae expedita ex
+                        voluptatum dolor, consequuntur quo voluptatem eum harum quibusdam inventore quaerat iste omnis?
+                        Incidunt facere dolores voluptate!</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteudo qualquer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi tenetur beatae expedita ex
+                        voluptatum dolor, consequuntur quo voluptatem eum harum quibusdam inventore quaerat iste omnis?
+                        Incidunt facere dolores voluptate!</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="logo-rodape">
+            <h1 class="agencia">Agência fake</h1>
+            <p style="color: white;"> Um site feito com HTML e CSS puro</p>
+            
+            <a href="https://www.linkedin.com/in/raquel-neres-893a3b291/" target="_blank"> 
+                <img class='img-footer' src="icons/linkedin.png" alt="Link para o linkedin">
+            </a>
+            <a href="mailto:raquelnascimentoneress@gmail.com?subject=Olá&body=Olá! Entrei em contato pelo site e gostaria de mais informações." target="_blank"> 
+                <img class='img-footer' src="icons/email.png" alt="Link para o email">
+            </a>
+
+            <a href="https://github.com/RaquelNeres" target="_blank"> <!-- abrir a pag em outra aba -->
+                <img class='img-footer' src="icons/github.png" alt="Link para o Github">
+            </a>
+        </div>
+    </footer>
     
     <script src="scripts/script.js"></script>
 </body>
